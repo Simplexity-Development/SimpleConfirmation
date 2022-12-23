@@ -1,0 +1,13 @@
+name: SimpleConfirmation
+version: '${project.version}'
+main: adhdmc.simpleconfirmation.SimpleConfirmation
+api-version: 1.19
+authors: [ Rhythmic, Peashooter101 ]
+description: Allows for specific commands to be confirmed before execution.
+commands:
+  confirm:
+    description: Command confirmation command.
+permissions:
+  simpleconfirmation.bypass:
+    description: Bypass needing to confirm commands.
+    default: false
