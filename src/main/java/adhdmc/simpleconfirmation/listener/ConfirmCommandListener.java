@@ -1,6 +1,5 @@
 package adhdmc.simpleconfirmation.listener;
 
-import adhdmc.simpleconfirmation.event.CommandConfirmedEvent;
 import adhdmc.simpleconfirmation.util.CommandRequest;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.bukkit.event.EventHandler;
